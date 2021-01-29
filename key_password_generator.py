@@ -17,12 +17,11 @@ def sub_array_to_array(arr): # pass all subarrays to an array
 def key_pass_generator(letters_lower,letters_upper,numbers):
     
     num_rand=random.randint(0,100)
-    num_nums=random.randint(0,100)
     key_pass=[]
     final_str=" "
     key_pass.append(random.choices(letters_lower,weights=None,k=num_rand))
     key_pass.append(random.choices(letters_upper,weights=None,k=num_rand))
-    key_pass.append(random.choices(numbers,weights=None,k=num_nums))
+    key_pass.append(random.choices(numbers,weights=None,k=num_rand))
     key_pass=sub_array_to_array(key_pass)
     
     if (len(key_pass)>16 or len(key_pass)<8):
