@@ -3,18 +3,19 @@ import string
 import re
 import smtplib, ssl
 from email.message import EmailMessage
+import json
 
 
 def send_mail(user,pass_generated):
     
     port=587
     smtp_server='smtp.gmail.com'
-    
     message=pass_generated
-    sender_email = "passgenerator4@gmail.com"
-    password="Ronaldocr7"
+    file=open('info.json')
+    data=json.load(file)  # Load json file with your info 
+    sender_email = data['Email']
+    password=data['Password']
     receiver_email=user
-    
     
     with smtplib.SMTP(smtp_server,port) as smtp:
         
