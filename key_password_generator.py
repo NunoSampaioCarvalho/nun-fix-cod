@@ -1,8 +1,7 @@
 import random
 import string
 import re
-import smtplib, ssl
-from email.message import EmailMessage
+import smtplib
 import json
 
 
