@@ -4,9 +4,14 @@ In this file, you will find a random key creation following the normal condition
 PS: Flaws were detected in the Linux operating system because of the python smtplib package, so this project was run on windows.
 
 
-# Run me 
+## Run me 
 
 To run this program open the command line and complete the steps bellow:
 
 1) git clone https://github.com/NunoSampaioCarvalho/nun-fix-cod.git
-2) python3 key
+2) python3 key_password_generator.py
+
+
+## Outputs
+
+
