@@ -14,6 +14,9 @@ To run this program open the command line and complete the steps bellow:
 
 ## Expected Outputs
 
-![](keypass1.png)
+![](images/keypass1.png)
+![](images/keypass21.png)
 
-![](keypass3.png)
+![](images/keypass3.png)
+
+
