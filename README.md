@@ -12,6 +12,8 @@ To run this program open the command line and complete the steps bellow:
 2) python3 key_password_generator.py
 
 
-## Outputs
+## Expected Outputs
 
-![](keypass.png)
+![](keypass1.png)
+
+![](keypass3.png)
