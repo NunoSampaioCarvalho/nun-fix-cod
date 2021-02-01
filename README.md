@@ -6,6 +6,7 @@ PS: Flaws were detected in the Linux operating system because of the python smtp
 
 # Run me 
 
-To run this program , please complete the steps bellow:
+To run this program open the command line and complete the steps bellow:
 
-1)
+1) git clone https://github.com/NunoSampaioCarvalho/nun-fix-cod.git
+2) python3 key
